@@ -1,0 +1,47 @@
+body{
+    background-color: #7D9D9C;
+    
+}
+header{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    border: inset;
+    border-color: #393E46;
+    color: #EEEEEE;
+    border-radius: 20px;
+    background-color: #222831;
+}
+
+h1{
+    color: #00ADB5;
+    text-shadow: 0px 1px 1px #EEEEEE; 
+}
+
+nav{
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* unvisited link */
+a:link {
+    color: #222831;
+}
+
+/* visited link */
+a:visited {
+    color:  #393E46;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color:  #222831;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #EEEEEE;
+}
+
+h2{
+    color: #222831;
+    text-shadow: 0px 1px 1px #EEEEEE;
+}

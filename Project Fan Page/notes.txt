@@ -1,0 +1,34 @@
+[---26/07/2022---]
+
+[Software development life cycle(SDLC)]
+
+    -SDLC is a systematic process for building software that ensures the 
+    quality and correctness of the software built. SDLC process aims to produce high-quality software 
+    that meets customer expectations
+
+    -Here, are prime reasons why SDLC is important for developing a software system.
+        It offers a basis for project planning, scheduling, and estimating
+        Provides a framework for a standard set of activities and deliverables
+        It is a mechanism for project tracking and control
+        Increases visibility of project planning to all involved stakeholders of the development process
+        Increased and enhance development speed
+        Improved client relations
+        Helps you to decrease project risk and project management plan overhead
+
+    -6 Phases 
+        Phase 1: Requirement collection and analysis
+        Phase 2: Feasibility study
+        Phase 3: Design
+        Phase 4: Coding
+        Phase 5: Testing
+        Phase 6: Installation/Deployment
+        Phase 7: Maintenance
+
+[Project life cycle]
+
+[Software testing life cycle]
+
+
+SR's are tasks
+Interview client all the tasks build the website etc design testing.  
+

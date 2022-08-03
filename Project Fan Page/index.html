@@ -7,10 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project Fan Page</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        .para1 {
+            font-family: sans-serif;
+        }
+    </style>
 </head>
 
 <body>
-
     <!--Heading-->
     <header>
         <h1>Taylor Swift</h1>
@@ -18,10 +22,11 @@
             Pennsylvania. Her father, Scott Kingsley Swift, is a former stockbroker for Merrill Lynch; her mother,
             Andrea Gardner Swift , is a former homemaker who previously worked as a mutual fund marketing executive Her
             younger brother, Austin, is an actor She was named after singer-songwriter James Taylor, and has Scottish
-            and German heritage.</p><br>
+            and German heritage</p><br>
     </header>
 
-    <nav>
+    <div class="index">
+        <h2>Index</h2>
         <ol>
             <li><a href="#baby_pictures">Baby Pictures</a></li>
             <li><a href="#primary_school">Primary School</a></li>
@@ -30,23 +35,25 @@
             <li><a href="#taylor_pet">Taylor + Pet</a></li>
             <li><a href="#awards">Awards</a></li>
             <Li><a href="#live">Live Performaces</a></Li>
-            <li><a href="#">Studio Albums</a></li>
+            <li><a href="#studio">Studio Albums</a></li>
         </ol>
-    </nav>
+    </div>
 
 
     <!--Baby_Pictures-->
-    <h2 id="baby_pictures">Baby Pictures</h2>
-    <p>Taylor Alison Swift was born on December 13, 1989, at the Reading Hospital in West Reading, Pennsylvania. Her
-        father, Scott Kingsley Swift, is a former stockbroker for Merrill Lynch; her mother, Andrea Gardner Swift , is a
-        former homemaker who previously worked as a mutual fund marketing executive.</p>
-    <img src="C:\Users\natha\OneDrive\Desktop\Web Dev Work\Project Fan Page\Pictures\Baby\pic1.jpg"
-        alt="Taylor Swift Baby Image 1" width="210" height="246">
-    <img src="C:\Users\natha\OneDrive\Desktop\Web Dev Work\Project Fan Page\Pictures\Baby\pic2.jpg"
-        alt="Taylor Swift Baby Image 2" width="210" height="246">
-    <img src="C:\Users\natha\OneDrive\Desktop\Web Dev Work\Project Fan Page\Pictures\Baby\pic3.jpg"
-        alt="Taylor Swift Baby Image 2" width="210" height="246"><br>
-
+    <div class="baby">
+        <h2 id="baby_pictures">Baby Pictures</h2>
+        <p>Taylor Alison Swift was born on December 13, 1989, at the Reading Hospital in West Reading, Pennsylvania. Her
+            father, Scott Kingsley Swift, is a former stockbroker for Merrill Lynch; her mother, Andrea Gardner Swift ,
+            is a
+            former homemaker who previously worked as a mutual fund marketing executive.</p>
+        <img src="C:\Users\natha\OneDrive\Desktop\Web Dev Work\Project Fan Page\Pictures\Baby\pic1.jpg"
+            alt="Taylor Swift Baby Image 1" width="210" height="246">
+        <img src="C:\Users\natha\OneDrive\Desktop\Web Dev Work\Project Fan Page\Pictures\Baby\pic2.jpg"
+            alt="Taylor Swift Baby Image 2" width="210" height="246">
+        <img src="C:\Users\natha\OneDrive\Desktop\Web Dev Work\Project Fan Page\Pictures\Baby\pic3.jpg"
+            alt="Taylor Swift Baby Image 2" width="210" height="246"><br>
+    </div>
 
 
     <!--PrimarySchool Section-->
@@ -90,7 +97,8 @@
     <!--Taylor + Pet-->
     <h2 id="taylor_pet">Taylor + Pet</h2>
     <p>Taylor is said to have two dobermans, Baby and Bug. Unlike Taylor's cats, her dogs aren't famous and keep a low
-        profile.</p>
+        profile. Taylor aklso has cats, she has two Scottish Folds named Olivia Benson and Meredith Grey and a Ragdoll
+        named Benjamin Button.</p>
     <img src="C:\Users\natha\OneDrive\Desktop\Web Dev Work\Project Fan Page\Pictures\Pet\pic1.jpg" alt="Pet Pic 1"
         width="210" height="246">
     <img src="C:\Users\natha\OneDrive\Desktop\Web Dev Work\Project Fan Page\Pictures\Pet\pic2.jpg" alt="Pet Pic 2"
@@ -102,26 +110,118 @@
     <h2 id="awards">Awards</h2>
     <p>Taylor Swift since the beginning of her career, Taylor Swift has been nominated for over 500 awards, and has won
         324.</p>
-    <img src="C:\Users\natha\OneDrive\Desktop\Web Dev Work\Project Fan Page\Pictures\awards\pic2.jpg" alt="Pet Pic 1"
+    <img src="C:\Users\natha\OneDrive\Desktop\Web Dev Work\Project Fan Page\Pictures\awards\pic2.jpg" alt="Awards Pic 1"
         width="200" height="246">
-    <img src="C:\Users\natha\OneDrive\Desktop\Web Dev Work\Project Fan Page\Pictures\awards\pic3.jfif" alt="Pet Pic 2"
-        width="180" height="246">
-    <img src="C:\Users\natha\OneDrive\Desktop\Web Dev Work\Project Fan Page\Pictures\awards\pig4.jpg" alt="Pet Pic 3"
+    <img src="C:\Users\natha\OneDrive\Desktop\Web Dev Work\Project Fan Page\Pictures\awards\pic3.jfif"
+        alt="Awards Pic 2" width="180" height="246">
+    <img src="C:\Users\natha\OneDrive\Desktop\Web Dev Work\Project Fan Page\Pictures\awards\pig4.jpg" alt="Awards Pic 3"
         width="200" height="246">
-    <img src="C:\Users\natha\OneDrive\Desktop\Web Dev Work\Project Fan Page\Pictures\awards\pic5.jpg" alt="Pet Pic 3"
+    <img src="C:\Users\natha\OneDrive\Desktop\Web Dev Work\Project Fan Page\Pictures\awards\pic5.jpg" alt="Awards Pic 4"
         width="200" height="246">
-    <img src="C:\Users\natha\OneDrive\Desktop\Web Dev Work\Project Fan Page\Pictures\awards\pic6.jpg" alt="Pet Pic 3"
+    <img src="C:\Users\natha\OneDrive\Desktop\Web Dev Work\Project Fan Page\Pictures\awards\pic6.jpg" alt="Awards Pic 5"
         width="180" height="246"><br>
 
     <!--Live Performaces-->
-    <h2 id="live">Live Performaces</h2>
-    <p>American singer-songwriter Taylor Swift has headlined five concert tours and three one-off concerts, and
-        performed in 21 music festivals and 197 live events.</p>
-    <img src="" alt="" width="" height="">
-    <img src="" alt="" width="" height="">
-    <img src="" alt="" width="" height="">
-    <img src="" alt="" width="" height="">
-    <img src="" alt="" width="" height="">
+    <div class="live">
+        <h2 id="live">Live Performaces</h2>
+        <p>American singer-songwriter Taylor Swift has headlined five concert tours and three one-off concerts, and
+            performed in 21 music festivals and 197 live events. She then served as an opening act for Rascal Flatts and
+            many other great bands and singers. She embarked on the Speak Now World Tour in 2011, which visited Asia,
+            Europe, North America, and Oceania. At the end of 2011, the tour was placed fourth on Pollstar's annual "Top
+            25
+            Worldwide Tours", earning $104.2 million with 100 shows. This made it the highest-grossing tour for a female
+            artist and for a solo artist in 2011. The tour ended in March 2012, and grossed over $123 million</p>
+        <img src="C:\Users\natha\OneDrive\Desktop\Web Dev Work\Project Fan Page\Pictures\Live Perf\pic1.jpg"
+            alt="Live Pic 1" width="200" height="246">
+        <img src="C:\Users\natha\OneDrive\Desktop\Web Dev Work\Project Fan Page\Pictures\Live Perf\pic2.jpg"
+            alt="Live Pic 2" width="180" height="246">
+        <img src="C:\Users\natha\OneDrive\Desktop\Web Dev Work\Project Fan Page\Pictures\Live Perf\pic3jpg.jpg"
+            alt="Live Pic 3" width="200" height="246">
+        <img src="C:\Users\natha\OneDrive\Desktop\Web Dev Work\Project Fan Page\Pictures\Live Perf\pic4.jpg"
+            alt="Live Pic 4" width="200" height="246">
+        <img src="C:\Users\natha\OneDrive\Desktop\Web Dev Work\Project Fan Page\Pictures\Live Perf\pic5.jpg"
+            alt="Live Pic 5" width="180" height="246"><br>
+    </div>
+    <div class="table">
+
+        <!--Studio Albums-->
+        <h2 id="studio">Studio Albums</h2>
+        <table>
+            <tr>
+                <th>Album Name</th>
+                <th>Cover art</th>
+                <th>Year</th>
+            </tr>
+            <tr>
+                <td><a href="https://music.fandom.com/wiki/Taylor_Swift_(album)">Taylor Swift</a></td>
+                <td><img src="https://static.wikia.nocookie.net/music/images/c/cc/TaylorSwiftAlbum.jpg/revision/latest/scale-to-width-down/700?cb=20200209204642"
+                        height="100" /></td>
+                <td>2006</td>
+            </tr>
+            <tr>
+                <td><a href="https://music.fandom.com/wiki/Fearless_(Taylor_Swift_album)">Fearless</a></td>
+                <td><img src="https://static.wikia.nocookie.net/music/images/7/75/Fearless.jpg/revision/latest/scale-to-width-down/700?cb=2020052123191155"
+                        height="100" /></td>
+                <td>2008</td>
+            </tr>
+            <tr>
+                <td><a href="https://music.fandom.com/wiki/Speak_Now_(Taylor_Swift_album)">Speak Now</a></td>
+                <td><img src="https://static.wikia.nocookie.net/music/images/9/9d/Speak_Now.jpg/revision/latest?cb=20210118221103"
+                        height="100" /></td>
+                <td>2010</td>
+            </tr>
+            <tr>
+                <td><a href="https://music.fandom.com/wiki/Red_(Taylor_Swift_album)">Red</a></td>
+                <td><img src="https://static.wikia.nocookie.net/music/images/f/f2/Red_TS.jpg/revision/latest?cb=20210118221401"
+                        height="100" /></td>
+                <td>2012</td>
+            </tr>
+            <tr>
+                <td><a href="https://music.fandom.com/wiki/1989_(Taylor_Swift_album)">1989</a></td>
+                <td><img src="https://static.wikia.nocookie.net/music/images/d/d4/1989.jpg/revision/latest/scale-to-width-down/700?cb=20200521231917"
+                        height="100" /></td>
+                <td>2014</td>
+            </tr>
+            <tr>
+                <td><a href="https://music.fandom.com/wiki/Reputation_(Taylor_Swift_album)">Reputation</a></td>
+                <td><img src="https://static.wikia.nocookie.net/music/images/d/d0/Reputation_TS.jpg/revision/latest?cb=20210111010452"
+                        height="100" /></td>
+                <td>2017</td>
+            </tr>
+            <tr>
+                <td><a href="https://music.fandom.com/wiki/Lover_(Taylor_Swift_album)">Lover</a></td>
+                <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Lover.jpg/700px-Lover.jpg"
+                        height="100" /></td>
+                <td>2019</td>
+            </tr>
+            <tr>
+                <td><a href="https://music.fandom.com/wiki/Folklore">Folklore</a></td>
+                <td><img src="https://upload.wikimedia.org/wikipedia/en/f/f8/Taylor_Swift_-_Folklore.png"
+                        height="100" /></td>
+                <td>2020</td>
+            </tr>
+            <tr>
+                <td><a href="https://music.fandom.com/wiki/Evermore">Evermore</a></td>
+                <td><img src="https://upload.wikimedia.org/wikipedia/en/0/0a/Taylor_Swift_-_Evermore.png"
+                        height="100" /></td>
+                <td>2020</td>
+            </tr>
+        </table>
+
+        <!--Contervercy-->
+        <h2>Controvercy</h2>
+        <p>Taylor Swift has returned, in a way, to her roots. The video for “Delicate,” which premiered during the
+            iHeartRadio Music Awards on Sunday night, shows the goofy Taylor who defined her persona about a decade
+            ago—flailing around in erratic dance moves, making silly faces, and presenting herself as the girl who just
+            wants to be included. In what has also become true Taylor Swift fashion, though, shes already facing some
+            backlash, and accusations that the video is treading too far into Spike Jonzes territory.</p>
+        <iframe width="640" height="360" src="https://www.youtube.com/embed/tabkkifdci4"
+            title="Why Everyone Hates Taylor Swift" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+
+
+    </div>
 </body>
 
 </html>

@@ -66,10 +66,10 @@ header h1 {
   .section1_align img{
     margin-top: 2%;
     width: 50%;
-    margin-right: 10px;
+    margin-right: 1%;
     float: right;
+    margin-left: 1%;
   }
-  
 
   .section1_align p{
     margin-left: 1%;

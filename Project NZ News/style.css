@@ -57,7 +57,7 @@ header h1 {
 /* 32 % width */
   .section1_align{
     margin-top: 2%;
-    margin-right: 5px;
+    margin-right: 9px;
     margin-bottom: 7%;
     float: left;
     width: 32%;
@@ -98,17 +98,63 @@ header h1 {
 
   .section2_align{
     margin-top: 2%;
+    margin-bottom: 7%;
     float: left;
     width: 32%;
+    background-color: #393E46;
     border: 5px solid black;
+  }
+
+  .section2_align img{
+    margin-top: 2%;
+    width: 50%;
+    margin-right: 1%;
+    float: right;
+    margin-left: 1%;
+    border: solid white 2px ;
+  }
+  .section2_align p{
+    margin-left: 1%;
+    color: rgba(255, 255, 255, 0.546);
+  }
+
+  .section2_align h3, h2{
+    margin-left: 1%;
+  }
+  /* h2 code */
+  .section2_align h2{
+    color: #ee4b2b;
+    text-align: center;
+    text-shadow: 1px 1px 1px 1px black;
+  }
+
+  /* h3 code */
+  .section2_align h3{
+    color:  rgba(255, 255, 255, 0.735);
+    text-align: left;
+    text-shadow: 1px 1px 1px 1px black;
   }
 
   .section3_align{
     margin-top: 2%;
     float: right;
     width: 32%;
+    background-color: #393E46;
     border: 5px solid black;
   }
+
+  .section3_align img {
+    width: 95%;
+    margin-left: 2%;
+    margin-right: 3%;
+}
+.section3_align h2{
+  color: #ee4b2b;
+  text-align: center;
+  text-shadow: 1px 1px 1px 1px black;
+}
+
+
   
   .footer {
     position: fixed;
